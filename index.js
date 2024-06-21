@@ -3,8 +3,8 @@ const app = express();
 const port = 3000;
 
 // Define a simple route
-app.get('/', (req, res) => {
-  res.send('Hello, world!');
+app.get('/api/user', (req, res) => {
+  res.send('Hello, world! i am manish');
 });
 
 // Start the server
